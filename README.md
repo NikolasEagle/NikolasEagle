@@ -1,52 +1,58 @@
-<h1 align="center">Привет, я Максим 👋</h1>
-<p align="center">
-  👨‍💻 Системный инженер | 🎯 Стремлюсь к постоянному росту и развитию
-</p>
+# Привет, я стремлюсь стать DevOps-инженером  🚀
+
+### 🧑‍💻 Мой путь: Из системного администрирования в DevOps
+
+Начинал как классический системный администратор: поднимал серверы руками, ходил в серверную, настраивал сети, боролся с отказавшими дисками и писал первые спасательные скрипты на Bash.
+
+Последние месяцы я посвятил целенаправленному переходу в DevOps: полностью погрузился в изучение современных практик, инструментов и философии. Данный период стал моим "интенсивом": я не просто читал документацию, а создавал собственную инфраструктуру, развернул и настроил несколько рабочих кластеров Kubernetes, внедрил GitOps с FluxCD, научился упаковывать приложения в Helm-чарты и автоматизировал все, что только можно.
 
 ---
 
-### 🧠 Обо мне
+### 🛠 Что я уже знаю и умею
 
-- 🌱 Изучаю: **Go**
-- 🧰 Мой стек: `Go`, `TypeScript`, `Python`, `Node.js`, `PostgreSQL`, `Redis`, `Docker`, `Go Fiber`, `Express`, `React`, `NextJS`, `Electron`, `React Native`
-- 💬 Готов пообщаться на темы: Backend, DevOps, Frontend
-- 📫 Как связаться: [eagle.dev.stack@gmail.com](mailto:eagle.dev.stack@gmail.com), [https://t.me/EglPC](https://t.me/EglPC)
-- 🌐 Портфолио: [Moviecat](https://moviecat.eagle.dev.stack.fvds.ru/), [Mousebook](https://mousebook.eagle.dev.stack.fvds.ru/)
+#### 📀 Администрирование (Твердый фундамент)
+`Linux (Ubuntu/Debain/Arch/Alpine)` `Systemd` `Bash` `Сети (TCP/IP, DNS, HTTP, iptables)` `Nginx` `PostgreSQL/Redis`
 
----
+#### ⚙️ Автоматизация конфигурации
 
-### 🛠️ Используемые технологии
+`Ansible` `Ansible Playbooks`
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=go,js,ts,html,css,py,react,nextjs,electron,nodejs,express,redis,postgres,docker,git,github,vscode,linux,bash,ubuntu,debian" />
-</div>
+#### ☁️ Облака, хостинг, виртуализация
+`TimeWeb Cloud` `AdminVPS` `FirstVDS` `QEMU/KVM` `VMware`
+
+#### 🔨 CI/CD & GitOps
+`GitLab CI` `GitHub Actions` `FluxCD` `Helm`
+
+#### 🐳 Контейнеризация и оркестрация
+`Docker` `Docker-Compose` `Kubernetes` `K3S` `Minikube` `containerd` `Flannel` `Calico`
+
+#### 📈 Мониторинг и логи
+`Prometheus` `Grafana` `Loki`
+
+#### 💻 Языки (От скриптов к инструментам)
+`Python` (автоматизация рутины, парсинг логов) `Bash` (скриптинг) `Go` (немного) `YAML` (манифесты конфигураций)
 
 ---
 
 ### 📈 Статистика GitHub
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikolasEagle&layout=compact&theme=github_dark" />
-</div>
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=NikolasEagle&show_icons=true&theme=radical)
 
 ---
 
-### 📌 Избранные проекты
+### 📂  Пет-проекты и задачи
 
-| Проект                                                           | Описание                                                                      | Технологии                                                             |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [Moviecat](https://github.com/NikolasEagle/moviecat-docker)   | Интерактивное веб-приложение для поиска и просмотра фильмов и сериалов онлайн | React, Node.js, Express, PostgreSQL, Redis, Docker                     |
-| [Mousebook](https://github.com/NikolasEagle/sallybook-docker) | Интерактивное веб-приложение для поиска и чтения онлайн-книг                  | Next.js, Node.js, Golang, Go Fiber, Express, PostgreSQL, Redis, Docker |
-
----
-
-### 📫 Где меня найти
-
-<p align="center">
-  <a href="https://t.me/EglPC"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="mailto:eagle.dev.stack@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+| Проект | Описание | Стек |
+| :--- | :--- | :--- |
+| **[GitOps-управление кластером с FluxCD](https://github.com/NikolasEagle/fluxcd_vds)** | Настроил синхронизацию состояния кластера Kubernetes с Git-репозиторием через FluxCD. В репозитории описана инфраструктура (helm-репозитории) и управление приложениями: развертывание Matrix-synapse (федеративный мессенджер), Mailu (почтовый сервер), а также подготовлена конфигурация для развертывания собственных приложений moviecat и mousebook через механизмы GitOps. | `FluxCD` `Kubernetes` `Helm` `GitOps` `YAML` |
+| **[Разработка собственного Helm-чарта для VLESS-прокси](https://github.com/NikolasEagle/vless-helm)** | Создал Helm-чарт для развертывания прокси-сервера на базе Xray (протокол VLESS) в Kubernetes. Реализовал гибкую настройку: автоматическую генерацию UUID, поддержку TLS, передачу переменных через values.yaml. Дополнительно настроил CI/CD (GitLab CI) для зеркалирования репозитория. | `Helm` `Kubernetes` `Xray/V2Fly` `YAML` `GitLab CI` |
+| **[Упаковка собственного приложения moviecat в Helm](https://github.com/NikolasEagle/moviecat-helm)** | Разработал Helm-чарт для своего веб-приложения по поиску фильмов. Автоматизировал его развертывание в Kubernetes. Настроил CI/CD (GitHub Actions, GitLab CI) для зеркалирования репозитория. | `Helm` `Kubernetes` `GitHub Actions` `YAML` `GitLab CI` |
+| **[Упаковка собственного приложения mousebook в Helm](https://github.com/NikolasEagle/mousebook-helm)** | Создал Helm-чарт для своего веб-приложения по чтению онлайн-книг. Обеспечил его гибкое конфигурирование и развертывание в Kubernetes. Поддержка CI/CD для синхронизации с GitLab. | `Helm` `Kubernetes` `GitHub Actions` `YAML` `GitLab CI` |
 
 ---
 
-<p align="center">Благодарю за визит! ⭐️</p>
+### 📬 Контакты
+
+*   **Email:** davletov.maxime@ya.ru
+*   **Telegram:** [@EglPC](https://t.me/EglPC)
+*   **HeadHunter:** [Резюме](https://hh.ru/resume/40a063c6ff0eec277e0039ed1f503370595948)
