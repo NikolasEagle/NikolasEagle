@@ -15,10 +15,10 @@
 
 #### ⚙️ Автоматизация конфигурации
 
-`Ansible` `Ansible Playbooks`
+`Ansible` `Ansible Playbooks` `Terraform`
 
 #### ☁️ Облака, хостинг, виртуализация
-`TimeWeb Cloud` `AdminVPS` `FirstVDS` `QEMU/KVM` `VMware`
+`TimeWeb Cloud` `FirstVDS` `QEMU/KVM` `VMware`
 
 #### 🔨 CI/CD & GitOps
 `GitLab CI` `GitHub Actions` `FluxCD` `Helm`
@@ -30,7 +30,7 @@
 `Prometheus` `Grafana` `Loki`
 
 #### 💻 Языки (От скриптов к инструментам)
-`Python` (автоматизация рутины, парсинг логов) `Bash` (скриптинг) `Go` (немного) `YAML` (манифесты конфигураций)
+`Python` (автоматизация рутины, парсинг логов) `Bash` (скриптинг) `YAML` (манифесты конфигураций)
 
 ---
 
